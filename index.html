@@ -17,6 +17,12 @@
 <body>
     <nav class="eceial">
         <ul>
+            <li class="d-block d-md-none" onclick="openNav()">
+                <a> <i class="fa fa-angle-double-right"></i></a>
+
+
+            </li>
+
             <li><a href="http://www.fayoum.edu.eg/">Home <i class="fa fa-home"></i></a></li>
             <li><a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hd=fayoum.ece.eg&service=mail&sacu=1&rip=1">Email <i class="fa fa-at"></i></a></li>
             <li><a href="http://www.fayoum.edu.eg/english/ece/">English <i class="fa fa-etsy"></i></a></li>
@@ -137,7 +143,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-9 content">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime odio commodi accusantium nisi nostrum saepe corrupti, soluta ex beatae velit perferendis a laboriosam enim tenetur fuga consectetur aut molestias.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime odio commodi accusantium nisi nostrum saepe corrupti, soluta ex beatae velit perferendis a laboriosam enim tenetur fuga consectetur aut molestias.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime odio commodi accusantium nisi nostrum saepe corrupti, soluta ex beatae velit perferendis a laboriosam enim tenetur fuga consectetur aut molestias.</p>
@@ -156,21 +162,41 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime odio commodi accusantium nisi nostrum saepe corrupti, soluta ex beatae velit perferendis a laboriosam enim tenetur fuga consectetur aut molestias.</p>
             </div>
             <div class="col-md-3">
-                <div class="d-none d-md-block">
-                    <div id="mySidenav" class="sidenav " style="display: none;">
-                        <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Clients</a>
-                        <a href="#">Contact</a>
-                    </div>
+                <div id="mySidenav" class="sidenav " style="display: none;">
+                    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                    <a href="http://www.fayoum.edu.eg/ece/Journalcrs/"> لوائح الكلية</a>
+                    <a href="#">نتائج الطلاب </a>
+                    <a href="#">الموضوعات البحثية </a>
+                    <a href="#">مجلة بحوث ودراسات الطفولة </a>
+                    <a href="#">المؤتمر الدولى الثالث </a>
+                    <a href=""> ملتقي الجودة  </a>
+                    <a href=""> السمات التنافسية </a>
+                    <a href=""> وحدات ذات طابع خاص </a>
+                    <a href="">الارشاد الأكاديمي  </a>
+                    <a href=""> لجان المقابلات الشخصية </a>
+                    <a href=""> روضة عصافير الجنة </a>
+                    <a href="">مكتبة الكلية  </a>
 
-                    <h2>Animated Sidenav Example</h2>
-                    <p>Click on the element below to open the side navigation menu.</p>
-                    <p style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; روابط مهمه </p>
+
                 </div>
+                <div class="d-none d-md-block text-right rigth-sidebar-in-md-screen">
 
 
+                    <h5 class="text-center">روابط مهمه </h5>
+
+                    <p> <a href="http://www.fayoum.edu.eg/ece/Journalcrs/"> لوائح الكلية</a></p>
+                    <p><a href="#">نتائج الطلاب </a></p>
+                    <p> <a href="#">الموضوعات البحثية </a></p>
+                    <p><a href="#">مجلة بحوث ودراسات الطفولة </a></p>
+                    <p> <a href="#">المؤتمر الدولى الثالث </a></p>
+                    <p><a href=""> ملتقي الجودة  </a></p>
+                    <p><a href=""> السمات التنافسية </a></p>
+                    <p><a href=""> وحدات ذات طابع خاص </a></p>
+                    <p><a href="">الارشاد الأكاديمي  </a></p>
+                    <p><a href=""> لجان المقابلات الشخصية </a></p>
+                    <p><a href=""> روضة عصافير الجنة </a></p>
+                    <p><a href="">مكتبة الكلية  </a></p>
+                </div>
 
             </div>
 
@@ -178,19 +204,113 @@
         </div>
     </div>
 
+    <!-- footer  -->
+
+
+    <div class="footer-wrap">
+        <div class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-3 panel ">
+                        <div class="title">
+                            <h1> اتصل بنا </h1>
+                        </div>
+                        <div class="content text-center">
+                            <ul>
+                                <li>تليفون : 0842146168 </li>
+                                <li>
+                                    فاكس : 0842147012
+                                </li>
+                                <li> البريد الإلكتروني : </li>
+                                <li> <a href="mailto:kgrtn@fayoum.edu.eg">kgrtn@fayoum.edu.eg </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel col-12 col-md-3">
+                        <div class="title">
+                            <h1> عن الكلية </h1>
+                        </div>
+                        <div class="content text-center">
+                            <ul>
+                                <li><a href="http://www.fayoum.edu.eg/ece/AboutCollegePage1.aspx">نشأة الكلية  </a></li>
+                                <li><a href="http://www.fayoum.edu.eg/ece/AboutCollegePage2.aspx">شعار الكلية  </a></li>
+                                <li><a href="http://www.fayoum.edu.eg/ece/AboutCollegePage3.aspx">
+            رؤية الكلية  </a></li>
+                                <li><a href="http://www.fayoum.edu.eg/ece/AboutCollegePage3.aspx">
+            رسالة الكلية  </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="panel col-12 col-md-3">
+
+                        <div class="title">
+                            <h1> معرض الصور </h1>
+                        </div>
+                        <div class="content text-center">
+                            <img src="http://www.fayoum.edu.eg/ece/images/photogallery.gif">
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="panel col-12 col-md-3">
+                        <div class="title">
+                            <h1> أدارة الكلية </h1>
+                        </div>
+                        <div class="content text-center">
+                            <ul>
+
+
+                                <li><a href="http://www.fayoum.edu.eg/ece/CollegeAdministrationPage1.aspx"> عميد الكلية </a></li>
+
+                                <li><a href="http://www.fayoum.edu.eg/ece/CollegeAdministrationPage2.aspx"> وكلاء الكلية </a></li>
+
+                                <li><a href="http://www.fayoum.edu.eg/ece/CollegeAdministrationPage7.aspx"> مجلس الكلية </a></li>
+
+                                <li><a href="http://www.fayoum.edu.eg/ece/CollegeAdministrationPage3.aspx"> مدير الكلية </a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
+    <footer class="footer1 ">
 
+        <div class="container">
+            <div class="row">
 
-
-
-
-
-    <footer>
+                <div class="text-md-left text-sm-center  col-md-8 ">
+                    <p class="foot-p ">
+                        جميع الحقوق محفوظة لجامعة الفيوم &nbsp;&nbsp;
+                    </p>
+                </div>
+                <div class="text-md-left text-sm-center col-md-4 rigth-div">
+                    <p>
+                        <a class="foot" href="http://www.fayoum.edu.eg/ece/contactus.aspx">اتصل بنا</a> &nbsp;&nbsp;| &nbsp;
+                    </p>
+                    <p>
+                        <a class="foot" href="#siteMap.aspx">خريطة الموقع</a> &nbsp;&nbsp;| &nbsp; </p>
+                    <p>
+                        <a class="foot" href="http://www.fayoum.edu.eg/">الرئيسية</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 
     </footer>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -203,20 +323,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
     <script src="assets/js/main.js"></script>
     <script>
-        $(function() {
-            $("#menu-toggle").click(function(e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-
-            $(window).resize(function(e) {
-                if ($(window).width() <= 768) {
-                    $("#wrapper").removeClass("toggled");
-                } else {
-                    $("#wrapper").addClass("toggled");
-                }
-            });
-        });
     </script>
 
 </body>
