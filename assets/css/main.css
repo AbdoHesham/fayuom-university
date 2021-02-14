@@ -28,6 +28,12 @@
 
 .first-nav {
     font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
 }
 
 
@@ -244,6 +250,15 @@
     text-decoration: none;
 }
 
+.rigth-sidebar-in-md-screen p a:hover {
+    color: black;
+}
+
+.rigth-sidebar-in-md-screen p:hover {
+    background-color: cornsilk;
+    color: black;
+}
+
 
 /*-------------------------------------------------
 FOOTER CLASSES
@@ -265,11 +280,13 @@ FOOTER CLASSES
 .footer .panel {
     /* float: left; */
     background: none;
+    margin-left: -25px;
 }
 
 .footer .panel .title h1 {
     color: #6fb15a;
-    font-size: 14px;
+    font-size: 19px;
+    margin-right: -43px;
 }
 
 .footer .panel .content {
@@ -284,6 +301,7 @@ FOOTER CLASSES
 
 .footer .panel .content ul li {
     border-bottom: #273042 solid 1px;
+    text-align: center;
     line-height: 25px;
     font-weight: normal;
     color: #e4eded;
@@ -292,7 +310,8 @@ FOOTER CLASSES
 .footer .panel .content ul li a {
     text-decoration: none;
     color: #e1ece7;
-    font-size: 10px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .footer .panel .content ul li a:hover {

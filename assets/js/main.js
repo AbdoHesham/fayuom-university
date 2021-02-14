@@ -35,6 +35,14 @@ function openNav() {
     }
 }
 
-function closeNav() {
+function closeNav(e) {
     document.getElementById("mySidenav").style.width = "0";
+    // if (!$(event.target).closest("#mySidenav,li .fa-angle-double-right").length) {
+    //     ("#mySidenav").css("display", "none");
+    // }
 }
+jQuery(".rigth-sidebar-in-md-screen p , .sidenav p").append("<hr />");
+
+$(".fa-angle-double-right").click(function() {
+    $(".sidenav").toggle();
+});
