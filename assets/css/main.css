@@ -343,5 +343,7 @@ FOOTER CLASSES
     display: inline-block;
 }
 
-
+table tr,th ,td {
+    border: double;
+}
 
